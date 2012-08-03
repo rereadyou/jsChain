@@ -1,0 +1,28 @@
+<?xml version="1.0"?>  
+	<overlay id="jsChain"   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">  
+		<script src="jsChain.js" />
+
+		<statusbar id="status-bar">  
+			<statusbarpanel id="jsChain" src="chrome://jsChain/skin/status-bar.png" tooltiptext="Start Trace" onclick="jsChain.run()" label="jsChain"  />  
+		</statusbar> 
+
+		<toolbarpalette id="BrowserToolbarPalette">  
+			<statusbarpanel id="jsChain" src="chrome://jsChain/skin/status-bar.png" tooltiptext="woo... : Start Trace" onclick="jsChain.run()" label="jsChain"  />  
+		</toolbarpalette> 
+
+		<menu id="file_menu">
+			<menuitem name="Example One"/>
+			<menuitem name="Example Two"/>
+			<menuitem name="Example Three"/>
+			<menuitem name="Example Four" position="1"/>
+		</menu>
+
+		<menupopup id="menu_ToolsPopup">
+			<menuitem label="&jsChain;" key="jsChain-run-key" oncommand="jsChain.run()"/>
+		</menupopup>
+
+		<keyset>
+			<key id="jsChain-run-key" modifiers="accel alt shift" key="L" oncommand="jsChain.run()"/>
+		</keyset>
+
+	</overlay>

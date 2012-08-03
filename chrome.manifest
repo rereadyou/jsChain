@@ -1,0 +1,2 @@
+content     jsChain    chrome/content/
+overlay		chrome://browser/content/browser.xul		chrome://jsChain/content/jsChain.xul
