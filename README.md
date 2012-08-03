@@ -1,2 +1,2 @@
-JS Chain
-#A tool to trace js function calling chain
+#JS Chain
+#A firefox add-on to trace js function calling chain
