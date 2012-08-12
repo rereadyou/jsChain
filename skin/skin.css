@@ -1,0 +1,13 @@
+
+#jsChainStatusBarIcon {
+	/*
+	list-style-image: url("chrome://jsChain/chrome/skin/b.jpg");
+	*/
+	width: 16px;
+	height: 16px;
+	margin: 5px 10px;
+}
+
+#jsChainStatusBarIcon :hover {
+	border: 1px solid #cccccc;
+}

@@ -1,2 +1,6 @@
 content     jsChain    chrome/content/
+content		jsChain	   chrome/content/	contentaccessible=yes
 overlay		chrome://browser/content/browser.xul		chrome://jsChain/content/jsChain.xul
+
+skin	jsChain		classic/1.0		skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://jsChain/skin/skin.css
